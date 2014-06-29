@@ -1,0 +1,12 @@
+{application, socket_mq,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { socket_mq_app, []}},
+  {env, []}
+ ]}.
